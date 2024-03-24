@@ -1,6 +1,5 @@
 let list = ["tiger", "cat", "bear", "bird"];
 
-
 console.log(list[0]);
 
 
@@ -233,7 +232,6 @@ function greet(name2 = '', age = 30, pet = 'cat'){
     return `Hello ${name2} you seem to be tired ${age-10} nice ${pet}`
 
 }
-
 
 // Arrow functions
 const add = (a, b) => a + b
