@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Navbar</title>
+  <style>
+    /* Style for the navbar */
+    .navbar {
+      background-color: #333;
+      overflow: hidden;
+    }
+
+    /* Style for the links in the navbar */
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    /* Change the color of the active link */
+    .navbar a.active {
+      background-color: #ddd;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+
+<div class="navbar">
+  <a class="active" href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<div id="home" style="background-color: lightgray; height: 500px;">
+  <h2>Home Section</h2>
+</div>
+
+<div id="about" style="background-color: lightblue; height: 500px;">
+  <h2>About Section</h2>
+</div>
+
+<div id="services" style="background-color: lightgreen; height: 500px;">
+  <h2>Services Section</h2>
+</div>
+
+<div id="contact" style="background-color: lightcoral; height: 500px;">
+  <h2>Contact Section</h2>
+</div>
+
+<script>
+  // Get all navbar links
+  var navbarLinks = document.querySelectorAll('.navbar a');
+
+  // Loop through each link
+  navbarLinks.forEach(function(navbarLink) {
+    // Add click event listener to each link
+    navbarLink.addEventListener('click', function(event) {
+      // Prevent default link behavior
+      event.preventDefault();
+      // Get target section ID from href attribute
+      var targetSectionId = this.getAttribute('href').substring(1);
+      // Scroll to the target section
+      document.getElementById(targetSectionId).scrollIntoView({
+        behavior: 'smooth'
+      });
+      // Remove 'active' class from all links
+      navbarLinks.forEach(function(link) {
+        link.classList.remove('active');
+      });
+      // Add 'active' class to the clicked link
+      this.classList.add('active');
+    });
+  });
+</script>
+
+</body>
+</html>
