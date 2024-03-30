@@ -1,0 +1,22 @@
+{
+  "name": "professional-website",
+  "version": "1.0.0",
+  "description": "For my personal professional website.",
+  "main": "course_script.js",
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderbachmann/professional-website.git"
+  },
+  "author": "Janio Martinez Bachmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderbachmann/professional-website/issues"
+  },
+  "homepage": "https://github.com/alexanderbachmann/professional-website#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
