@@ -18,5 +18,8 @@
   "homepage": "https://github.com/alexanderbachmann/professional-website#readme",
   "dependencies": {
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
   }
 }
