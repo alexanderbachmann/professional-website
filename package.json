@@ -4,7 +4,8 @@
   "description": "For my personal professional website.",
   "main": "course_script.js",
   "scripts": {
-    "build": "browserify script.js > bundle.js && live-server"
+    "build": "browserify script.js > bundle.js && live-server",
+    "build-css": "tailwindcss build src/styles.css -o public/style.css"
   },
   "repository": {
     "type": "git",

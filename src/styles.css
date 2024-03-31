@@ -103,6 +103,12 @@ Background image:
 
  */
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 body {
     background-color: rgb(15, 23, 42);
     color: white;
