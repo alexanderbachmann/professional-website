@@ -2,10 +2,10 @@
   "name": "professional-website",
   "version": "1.0.0",
   "description": "For my personal professional website.",
-  "main": "course_script.js",
+  "main": "JS/course_script.js",
   "scripts": {
-    "build": "browserify script.js > bundle.js && live-server",
-    "build-css": "tailwindcss build src/styles.css -o public/style.css"
+    "build": "browserify JS/script.js > JS/bundle.js && live-server",
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
   },
   "repository": {
     "type": "git",
