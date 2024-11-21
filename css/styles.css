@@ -1293,7 +1293,7 @@ video {
 
 @media (min-width: 768px) {
   .md\:mt-32 {
-    margin-top: 8rem;
+    margin-top: 4rem;
   }
 
   .md\:px-12 {
