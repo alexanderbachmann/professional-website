@@ -1,212 +1,285 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 viewport-fit=cover">
-    <title class="main-title"> Janio Bachmann | Data Insights Engineer </title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janio Bachmann</title>
+    <link rel="icon" href="../main/images/Cover/logo_icon.png">
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- HTML in your document's head -->
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
 </head>
-<body>
-<div class="first_section">
+<body class="bg-zinc-800 leading-relaxed text-zinc-100 selection:bg-orange-300 selection:text-orange-900">
 
-<nav class="navbar">
-    <ul class="main-nav">
-    <li><a href="#">Home</a></li>
-    <li><a href="about.html">About</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+<div class="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-20 lg:px-24 lg:py-0">
+    <div class="lg:flex lg:justify-between lg:gap-4">
+        <header class="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
+            <!-- <script type="text/javascript" src="../dist/script.js"></script> -->
+            <div>
+                <h1>
+                    <a class="text-8xl font-bold tracking-tight text-zinc-200 sm:text-6xl">Janio</a> <a class="text-8xl font-bold tracking-tight text-orange-600 sm:text-6xl">  <br> Martinez  <br> Bachmann </a>
+                </h1>
+                <h2 class="mt-2 text-lg font-medium tracking-tight text-zinc-200 sm:text-2xl"> Senior Data Analyst </h2>
+                <p class="mt-4 max-w-xs leading-normal"> I build applications to
+                    tell stories that scale.  </p>
 
-    </ul>
-</nav>
-
-<!-- <script type="text/javascript" src="course_script.js"></script> --->
-
-<div class="cover-container">
-    <section class="text-intro">
-<h1>
-    <a>Janio <br> <span> Martínez <br> Bachmann</span></a>
-</h1>
-    <p class="intro"> Senior data insights engineer <br> with
-        over 5 years of experience <br> in
-        building scalable applications. </p> <br>
-    </section>
-</div>
-
-
-</div>
-
-<hr>
-<section class="timeline-title">
-    <h1> Work Experience </h1>
-</section>
-
-
-
-<div class="timeline">
-        <div class="container left-container">
-            <img src="../images/Employers/roche.png">
-            <div class="text-box">
-                <div class="right">
-                    <a href="https://www.roche.com/" target="_blank" alt="roche">
-                <span class="material-symbols-outlined">
-link
-</span>
-                    </a>
-                </div>
-                <h2> Roche </h2>
-                <small> 2023 - Present || Barcelona, Spain </small>
-                <ul>
-                    <li> Help launch new KPIs across the Service division to identify opportunities for efficiency. </li>
-                    <li> Propose and designed automation processes to reduce the manual preparation time supporting the team in using
-                        the time on activities that drive impact. </li>
-                    <li>Act as a product owner to ensure a smooth migration of our on-premise Service infrastructure to Snowflake. </li>
-                    <li> Develop a standardized internal framework for communication and request collection from stakeholders to efficiently allocate resources to high-impact projects while meeting expectations.  </li>
-                </ul>
-                <br>
-                <p class="tools"> <strong> Tools: </strong> <br>
-                <div class="tools_content">
-                <ul>
-                    <li>Snowflake</li>
-                    <li>SQL Server</li>
-                    <li> Tableau </li>
-                    <li> R </li>
-                    <li> Alteryx </li>
-                    <li> SalesForce </li>
-                </ul>
+                <nav class="nav hidden lg:block">
+                    <ul class="mt-16 w-max">
+                        <li>
+                            <a class="group flex items-center py-3 active" href="#meet_janio">
+                                <span class="nav-text text-xl font-bold uppercase tracking-widest text-zinc-100 group-hover:text-orange-600 group-focus-visible:text-zinc-200">👋🏼 Meet Janio </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="group flex items-center py-3 active" href="#career_highlights">
+                                <span class="nav-text text-xl font-bold uppercase tracking-widest text-zinc-100 group-hover:text-orange-600 group-focus-visible:text-slate-200">💡 Career Highlights </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="group flex items-center py-3 active" href="#portfolio">
+                                <span class="nav-text text-xl font-bold uppercase tracking-widest text-zinc-100 group-hover:text-orange-600 group-focus-visible:text-zinc-200 mr-5"> 📊 Analytics Portfolio </span>
+                            </a>
+                        </li>
+                        <!--  <li>
+                              <a class="group flex items-center py-3 active" href="#web-dev">
+                                  <span class="nav-text text-xl font-bold uppercase tracking-widest text-zinc-100 group-hover:text-orange-600 group-focus-visible:text-zinc-200"> 📲 Web Dev Projects </span>
+                              </a>
+                          </li> -->
+                    </ul>
+                </nav>
             </div>
-                <span class="left-container-arrow"></span>
-            </div>
-        </div>
-    <div class="container right-container">
-        <img src="../images/Employers/Voodoo.webp" alt="voodoo_logo">
-        <div class="text-box">
-            <div class="right">
-            <a href="https://www.voodoo.io/" target="_blank" alt="voodoo">
-                <span class="material-symbols-outlined">
-link
-</span>
+            <a href="documents/CV.pdf" target="_blank">
+        <span class="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-orange-400 focus-visible:text-teal-300 font-semibold text-slate-200 group/link text-base">
+             View Resume
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z" clip-rule="evenodd"></path></svg>
+        </span>
             </a>
-            </div>
-            <h2>  Voodoo  </h2>
-            <small> 2022 - 2022 || Barcelona, Spain </small>
-            <ul>
-                <li> Develop scalable end tables through data modeling to facilitate easy access and utilization by data consumers.</li>
-                <li> Facilitate the design of experimentation protocols for diverse games and evaluated the outcomes of AB tests. </li>
-                <li> Build and deploy financial KPI dashboards tailored for games to analyze financial performance and enhance executive visibility. </li>
+            <ul class="ml-1 mt-8 flex items-center">
+                <li class="mr-5 text-xs shrink-0">
+                    <a class = "block hover:text-zinc-200" href="https://www.linkedin.com/in/janio-martinez-bachmann-26040ba1/" target="_blank" rel="noreferrer noopener" title = "LinkedIn">
+                        <span class = "sr-only"> LinkedIn </span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-6 w-6" aria-hidden="true"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path></svg>
+                    </a>
+                </li>
+                <li class="mr-5 text-xs shrink-0">
+                    <a class = "block hover:text-zinc-200" href="https://github.com/alexanderbachmann" target="_blank" rel="noreferrer noopener" title = "Github">
+                        <span class = "sr-only"> gitHub </span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="h-6 w-6" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+                    </a>
+                </li>
+                <li class="mr-5 text-xs shrink-0">
+                    <a class="block hover:text-zinc-200" href="https://www.kaggle.com/janiobachmann" target="_blank" rel="noreferrer noopener" title="Kaggle">
+                        <span class="sr-only">Kaggle</span>
+                        <svg width="25" height="25" viewBox="0 0 50.1 71.5" xmlns="http://www.w3.org/2000/svg" ><g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt" stroke="white" stroke-width="0.25mm" fill="white" style="stroke:white;stroke-width:0.25mm;fill:#000"><path d="M 50.1 64.7 L 43.5 71.5 L 9.5 38.1 L 9.5 70.3 L 0 70.3 L 0 0.3 L 9.5 0.3 L 9.5 32.2 L 39.3 0 L 45.7 5.9 L 18.4 34.3 L 50.1 64.7 Z" vector-effect="non-scaling-stroke"/></g></svg>
+                    </a>
+                </li>
+                <li class="mr-5 text-xs shrink-0">
+                    <a class="block hover:text-zinc-200" href="https://www.goodreads.com/user/show/139128464-janio-martinez-bachmann" target="_blank" rel="noreferrer noopener" title="GoodReads">
+                        <span class="sr-only">GoodReads</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" fill="currentColor" class="h-6 w-6" aria-hidden="true"><path d="M663.8 382.4c10.2 74.6-9.4 158-71.8 201.4-44.6 31-105.6 28.2-141.6 11.4-74.2-34.6-99-117.2-93.6-194.4 8.6-121.8 81.8-175.8 150.6-175 93.8-0.4 143.6 63.6 156.4 156.6zM960 176v672c0 61.8-50.2 112-112 112H176c-61.8 0-112-50.2-112-112V176c0-61.8 50.2-112 112-112h672c61.8 0 112 50.2 112 112zM724 626.4s-0.2-68-0.2-434.6h-58v80.6c-1.6 0.6-2.4-1-3.2-2.4-19.2-41.4-71.8-92.6-152-92-103.8 0.8-174.4 62.4-201.2 155.6-8.6 29.8-11.6 60.2-11 91.2 3.4 155.8 90.2 235.6 224.8 230.4 57.8-2.2 109-34 138-90.4 1-2 2.2-3.8 3.4-5.8 0.4 0.2 0.8 0.2 1.2 0.4 0.6 7.6 0.4 61.4 0.2 69-0.4 29.6-4 59-14.4 87-15.6 42-44.6 69.4-89 79-35.6 7.8-71.2 7.6-106.4-2.4-43-12.2-73-38-82.2-83.6-0.6-3.2-2.6-2.6-4.6-2.6h-53.6c1.6 21.2 6.4 40.6 17 58.4 48.4 81 165.4 97 256.4 74.8 99.8-24.6 134.6-109.8 134.8-212.6z" fill=""></path></svg>
+                    </a>
+                </li>
+
             </ul>
-            <span class="right-container-arrow"></span>
-            <br>
-                <p class="tools"> <strong> Tools: </strong> <br>
-            <div class="tools_content">
-                <ul>
-                    <li>Redshift</li>
-                    <li>dbt</li>
-                    <li> Python </li>
-                    <li> Tableau </li>
-                    <li> Airflow</li>
-                </ul>
+        </header>
+
+        <main class="pt-24 lg:w-1/2 lg:py-24" id="meet_janio">
+            <p> Welcome to my personal website! I'm excited to share my journey with you. Born in the Dominican Republic and proudly half German, my multicultural background ignites my passion for knowledge and adventure. <br><br>
+
+                My journey in the data field began in 2016 after being inspired by the book <b><a class="text-orange-600" href="https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646" target="_blank"> Hands-on Machine Learning with Scikit-Learn and TensorFlow by Aurelien Geron </a></b>. Leaving my homeland behind, I endeavored to learn from the brightest minds in the data industry across the globe. <br><br>
+
+                Living in six different cities, from Munich to Barcelona, has not only provided unique learning opportunities but has also introduced me to incredibly talented people along the way. <br><br>
+
+                When I'm not immersed in my computer, you'll often find me running, <b><a href="https://www.goodreads.com/user/show/139128464-janio-martinez-bachmann" class="text-orange-600" target="_blank">reading </a></b>, meditating, or playing with my Himalayan cat.  </p>
+
+            <div class="mb-8"></div>
+            <div class="container p-8">
+                <h1 class="text-3xl font-bold mx-8 mb-8 text-center" id="career_highlights"> Career Highlights </h1>
+                <div class="mx-auto max-w-md">
+                    <div class="relative">
+                        <!-- Timeline Item 1 -->
+                        <div class="border-l-4 border-orange-600 pl-4 mb-8">
+                <span class="text-xl font-bold">
+                    <a class="inline-block" href="https://www.roche.com/" target="_blank"><svg class="h-4 w-4 text-orange-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M15 7l-6.5 6.5a1.5 1.5 0 0 0 3 3l6.5 -6.5a3 3 0 0 0 -6 -6l-6.5 6.5a4.5 4.5 0 0 0 9 9 l6.5 -6.5" /></svg></a>
+                    <span class="inline-block">
+                        Global BI Analyst || Roche
+                    </span>
+                </span>
+                            <div class="flex items-left mb-4 text-sm">
+                                <span class="font-light flex items-left  text-sm"> 2023 - Present · Barcelona </span>
+                            </div>
+                            <ul class="text-zinc-200 font-light">
+                                <li> - Worked on leading and coordinating activities related to the migration of the data infrastructure from on-premise to the cloud.</li>
+                                <li> - Contributed to the automation of operational processes saving the team manual efforts with reporting activities.  </li>
+                            </ul>
+                        </div>
+                        <div class="flex flex-wrap gap-4 pl-4 mb-16">
+                            <div class="flex items-center rounded-full bg-orange-300/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/5"> Salesforce </div>
+                            <div class="flex items-center rounded-full bg-orange-300/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/12"> R </div>
+                            <div class="flex items-center rounded-full bg-orange-300/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/6"> Tableau </div>
+                            <div class="flex items-center rounded-full bg-orange-300/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/6"> Alteryx </div>
+                            <div class="flex items-center rounded-full bg-orange-300/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/12"> SQL </div>
+                            <div class="flex items-center rounded-full bg-orange-300/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/6"> Python </div>
+                            <div class="flex items-center rounded-full bg-orange-300/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/5"> Snowflake </div>
+                        </div>
+
+                        <div class="border-l-4 border-orange-600 pl-4 mb-8">
+                <span class="text-xl font-bold">
+                    <a class="inline-block" href="https://www.voodoo.io/" target="_blank"><svg class="h-4 w-4 text-orange-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M15 7l-6.5 6.5a1.5 1.5 0 0 0 3 3l6.5 -6.5a3 3 0 0 0 -6 -6l-6.5 6.5a4.5 4.5 0 0 0 9 9 l6.5 -6.5" /></svg></a>
+                    <span class="inline-block">
+                    Data Analyst || Voodoo
+                        </span>
+                </span>
+                            <div class="flex items-left mb-4 text-sm">
+                                <span class="font-light flex items-left  text-sm"> 2022 - 2022 · Barcelona </span>
+                            </div>
+                            <ul class="text-zinc-200 font-light">
+                                <li> - Developed scalable end tables through data modeling to facilitate easy access and utilization by data consumers.</li>
+                                <li> - Facilitate the design of experimentation protocols for diverse games and evaluated the outcomes of AB tests.</li>
+                            </ul>
+                        </div>
+                        <div class="flex flex-wrap gap-4 pl-4 mb-16">
+                            <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/12"> dbt </div>
+                            <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/6"> Python </div>
+                            <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/6"> Tableau </div>
+                            <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/12"> SQL </div>
+                            <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/6"> Redshift </div>
+                        </div>
+
+
+                        <div class="border-l-4 border-orange-600 pl-4 mb-8">
+                <span class="text-xl font-bold">
+                    <a class="inline-block" href="https://about.google/" target="_blank"><svg class="h-4 w-4 text-orange-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M15 7l-6.5 6.5a1.5 1.5 0 0 0 3 3l6.5 -6.5a3 3 0 0 0 -6 -6l-6.5 6.5a4.5 4.5 0 0 0 9 9 l6.5 -6.5" /></svg></a>
+                    <span class="inline-block">
+                    BI Analyst || Google
+                </span>
+                    </span>
+                            <div class="flex items-left mb-4 text-sm">
+                                <span class="font-light flex items-left  text-sm"> 2021 - 2022 · Dublin </span>
+
+                            </div>
+                            <ul class="text-zinc-200 font-light">
+                                <li> - Designed comprehensive dashboards to evaluate to track financial performance from our Apps publishers, enabling account managers to swiftly identify additional market opportunities </li>
+                                <li> - Evaluate market opportunities within the African market to assess the viability of extending our scaled services under the (Next Billion Users) program. </li>
+                            </ul>
+                        </div>
+
+                        <div class="flex flex-wrap gap-4 pl-4 mb-16">
+                            <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/12"> Looker </div>
+                            <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/12"> Python </div>
+                            <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/12"> GCP </div>
+                            <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/7"> SQL </div>
+                            <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/7"> Admob </div>
+                        </div>
+
+                        <div class="border-l-4 border-orange-600 pl-4 mb-8">
+                <span class="text-xl font-bold">
+                      <a class="inline-block" href="https://www.ecb.europa.eu/home/html/index.en.html" target="_blank"><svg class="h-4 w-4 text-orange-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M15 7l-6.5 6.5a1.5 1.5 0 0 0 3 3l6.5 -6.5a3 3 0 0 0 -6 -6l-6.5 6.5a4.5 4.5 0 0 0 9 9 l6.5 -6.5" /></svg></a>
+                    <span class="inline-block">
+                    Financial Analyst || European Central Bank
+                </span>
+                </span>
+                            <div class="flex items-left mb-4 text-sm">
+                                <span class="font-light flex items-left  text-sm"> 2020 - 2021 · Frankfurt </span>
+
+                            </div>
+                            <ul class="text-zinc-200 font-light">
+                                <li> - Generated and conduct analysis on the weekly consolidated Eurosystem balance sheet for publication on the ECB website.</li>
+                                <li> - Delivered comprehensive reports on monetary policy securities holdings and income to Euro-area Central Banks.</li>
+                            </ul>
+                        </div>
+                        <div class="flex flex-wrap gap-4 pl-4 mb-16">
+                            <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/12"> SAP </div>
+                            <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/6"> UiPath </div>
+                            <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/12"> VBA </div>
+                        </div>
+
+                        <div class="border-l-4 border-orange-600 pl-4 mb-8">
+                <span class="text-xl font-bold">
+                      <a class="inline-block" href="https://team.emma-sleep.com/" target="_blank"><svg class="h-4 w-4 text-orange-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M15 7l-6.5 6.5a1.5 1.5 0 0 0 3 3l6.5 -6.5a3 3 0 0 0 -6 -6l-6.5 6.5a4.5 4.5 0 0 0 9 9 l6.5 -6.5" /></svg></a>
+                <span class="text-xl font-bold">
+                    Growth Analyst || Emma
+                </span>
+                </span>
+                            <div class="flex items-left mb-4 text-sm">
+                                <span class="font-light flex items-left  text-sm"> 2019 - 2020 · Frankfurt </span>
+
+                            </div>
+                            <ul class="text-zinc-200 font-light">
+                                <li> - Designed dashboards to streamline the optimization of investments in offline and online marketing channels across diverse markets.</li>
+                                <li> - Gathered stakeholder requests in an organized and systematic manner to ensure alignment with expectations.</li>
+                            </ul>
+                        </div>
+                        <div class="flex flex-wrap gap-4 pl-4 mb-16">
+                            <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/12"> R </div>
+                            <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/12"> SQL </div>
+                            <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/6"> PowerBI </div>
+                            <div class="flex items-center rounded-full bg-orange-400/10 px-3 py-1 text-xs font-medium leading-5 text-orange-400 basis-1/6"> GoogleAds </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="container left-container">
-        <img src="../images/Employers/google.png">
-        <div class="text-box">
-            <div class="right">
-                <a href="https://about.google/" target="_blank" alt="google">
-                <span class="material-symbols-outlined">
-link
-</span>
-                </a>
-            </div>
-            <h2> Google </h2>
-            <small> 2021 - 2022 || Dublin, Ireland </small>
-            <ul>
-                <li> Evaluate market opportunities within the African market to assess the viability of extending our scaled services under the (Next Billion Users) program. </li>
-                <li> Support stakeholders by extracting relevant data from our data infrastructure using SQL, thereby fulfilling specific requests crucial for strategic decision-making. </li>
-                <li> Design a comprehensive dashboard within Looker to evaluate the health score of AdManager for Apps publishers, enabling account managers to swiftly identify additional market opportunities
-            </ul><br>
-            <p class="tools"><b> <strong> Tools: </strong> </b> </p>
-            <span class="left-container-arrow"></span>
-            <div class="tools_content">
-                <ul>
-                    <li>Google Cloud Platform (GCP)</li>
-                    <li> BigQuery</li>
-                    <li>Looker </li>
-                    <li> Python </li>
-                    <li> AdMob/AdManager </li>
-                </ul>
-        </div>
-        </div>
-    </div>
-    <div class="container right-container">
-        <img  src="../images/Employers/ECB.svg">
-        <div class="text-box">
-            <div class="right">
-                <a href="https://www.ecb.europa.eu/home/html/index.en.html" target="_blank" alt="ecb">
-                <span class="material-symbols-outlined">
-link
-</span>
-                </a>
-            </div>
-            <h2> European Central Bank </h2>
-            <small> 2020 - 2021 || Frankfurt, Germany</small>
-            <ul>
-                <li> Generate and conduct analysis on the weekly consolidated Eurosystem balance sheet for publication on the ECB website. </li>
-                <li> Deliver comprehensive reports on monetary policy securities holdings and income to Euro-area Central Banks.</li>
-                <li> Conducted reconciliations between SAP (FI) and the treasury financial system to ensure the integrity and accuracy of data within our accounting system. </li>
-            </ul><br>
-                <p class="tools"><b> <strong> Tools: </strong></b> </p>
-            <span class="right-container-arrow"></span>
-            <div class="tools_content">
-            <ul>
-                <li>UIPath</li>
-                <li>SAP HANA </li>
+            <h1 class="text-3xl font-bold mx-8 mb-8 text-center"> Portfolio </h1>
+            <h2 class="text-3xl font-light mx-8 mb-8 text-center" id="portfolio"> Analytics </h2>
+            <ul class="grid max-w-[26rem] sm:max-w-[52.5rem] mt-16 sm:mt-20 md:mt-32 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 mx-auto gap-6 lg:gap-y-8 xl:gap-x-8 lg:max-w-7xl px-4 sm:px-6 lg:px-8">
+                <!-- Project #1 -->
+                <li class="group relative rounded-3xl bg-orange-50 p-6 dark:bg-orange-400/80 dark:highlight-white/5 hover:bg-orange-100 dark:hover:bg-orange-600/50">
+                    <div class="aspect-[672/494] relative rounded-md transform overflow-hidden shadow-[0_2px_8px_rgba(15,23,42,0.08)] bg-orange-200 dark:bg-orange-700">
+                        <img alt="" fetchpriority="high" width="672" height="494" decoding="async" data-nimg="1" class="absolute inset-0 w-full h-full" style="color:transparent" src="images/Portfolio/data_science_jobs.png">
+                        <div style="opacity: 0; transition: opacity 0.5s linear 0s;">
+                            <video preload="none" muted="" playsinline="" class="absolute inset-0 w-full h-full [mask-image:radial-gradient(white,black)]">
+                            </video></div></div><div class="flex flex-wrap items-center mt-6">
+                    <h2 class="text-sm leading-6 text-slate-900 dark:text-white font-semibold group-hover:text-sky-500 dark:group-hover:text-sky-400">
+                        <a href="https://janiobachmann.shinyapps.io/data_science_jobs_app/" target="_blank"><span class="absolute inset-0 rounded-3xl">
+
+                    </span> Salaries Prediction App</a></h2>
+                    <svg class="w-6 h-6 flex-none opacity-0 group-hover:opacity-100" viewBox="0 0 24 24" fill="none">
+                        <path d="M9.75 15.25L15.25 9.75M15.25 9.75H10.85M15.25 9.75V14.15" stroke="#0EA5E9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+
+                        </path></svg>
+                    <p class="w-full flex-none text-[0.8125rem] leading-6 text-white dark:text-white">Shiny web application &amp; to forecast salaries based on different features in the job market. </p></div></li>
+
+                <!-- Project #1 -->
+                <li class="group relative rounded-3xl bg-orange-50 p-6 dark:bg-orange-400/80 dark:highlight-white/5 hover:bg-orange-100 dark:hover:bg-orange-600/50">
+                    <div class="aspect-[672/494] relative rounded-md transform overflow-hidden shadow-[0_2px_8px_rgba(15,23,42,0.08)] bg-orange-200 dark:bg-orange-700">
+                        <img alt="" fetchpriority="high" width="672" height="494" decoding="async" data-nimg="1" class="absolute inset-0 w-full h-full" style="color:transparent" src="images/Portfolio/google_trends.png">
+                        <div style="opacity: 0; transition: opacity 0.5s linear 0s;">
+                            <video preload="none" muted="" playsinline="" class="absolute inset-0 w-full h-full [mask-image:radial-gradient(white,black)]">
+                            </video></div></div><div class="flex flex-wrap items-center mt-6">
+                    <h2 class="text-sm leading-6 text-slate-900 dark:text-white font-semibold group-hover:text-sky-500 dark:group-hover:text-sky-400">
+                        <a href="https://janiobachmann.shinyapps.io/google_trends/" target="_blank"><span class="absolute inset-0 rounded-3xl">
+
+                    </span> Google Keywords App</a></h2>
+                    <svg class="w-6 h-6 flex-none opacity-0 group-hover:opacity-100" viewBox="0 0 24 24" fill="none">
+                        <path d="M9.75 15.25L15.25 9.75M15.25 9.75H10.85M15.25 9.75V14.15" stroke="#0EA5E9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+
+                        </path></svg>
+                    <p class="w-full flex-none text-[0.8125rem] leading-6 text-white dark:text-white">Shiny web application &amp; that measures the keywords google trends by connecting via Google API library. </p></div></li>
+
+                <li class="group relative rounded-3xl bg-orange-50 p-6 dark:bg-orange-400/80 dark:highlight-white/5 hover:bg-orange-100 dark:hover:bg-orange-600/50">
+                    <div class="aspect-[672/494] relative rounded-md transform overflow-hidden shadow-[0_2px_8px_rgba(15,23,42,0.08)] bg-orange-200 dark:bg-orange-700">
+                        <img alt="" fetchpriority="high" width="672" height="494" decoding="async" data-nimg="1" class="absolute inset-0 w-full h-full" style="color:transparent" src="images/Portfolio/credit_fraud_2.png">
+                        <div style="opacity: 0; transition: opacity 0.5s linear 0s;">
+                            <video preload="none" muted="" playsinline="" class="absolute inset-0 w-full h-full [mask-image:radial-gradient(white,black)]">
+                                <source src="images/Portfolio/data_science_jobs.png" type="video/mov">
+                            </video></div></div><div class="flex flex-wrap items-center mt-6">
+                    <h2 class="text-sm leading-6 text-slate-900 dark:text-white font-semibold group-hover:text-sky-500 dark:group-hover:text-sky-400">
+                        <a href="https://www.kaggle.com/code/janiobachmann/credit-fraud-dealing-with-imbalanced-datasets" target="_blank"><span class="absolute inset-0 rounded-3xl">
+                    </span> Credit Fraud Detector </a></h2>
+                    <svg class="w-6 h-6 flex-none opacity-0 group-hover:opacity-100" viewBox="0 0 24 24" fill="none">
+                        <path d="M9.75 15.25L15.25 9.75M15.25 9.75H10.85M15.25 9.75V14.15" stroke="#0EA5E9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+
+                        </path></svg>
+                    <p class="w-full flex-none text-[0.8125rem] leading-6 text-white dark:text-white">This notebook compares different sampling techniques to best detect credit fraud transaction. Currently, ranking 12th as the most voted work on Kaggle. </p></div></li>
+
             </ul>
-            </div>
-        </div>
-    </div>
-    <div class="container left-container">
-        <img  src="../images/Employers/Emma.png">
-        <div class="text-box">
-            <div class="right">
-                <a href="https://team.emma-sleep.com/" target="_blank" alt="emma">
-                <span class="material-symbols-outlined">
-link
-</span>
-                </a>
-            </div>
-            <h2> Emma GmbH </h2>
-            <small> 2019 - 2020 || Frankfurt, Germany</small>
-            <ul>
-                <li> Design dashboards to streamline the optimization of investments in offline and online marketing channels across diverse markets. </li>
-                <li> Provide strategic guidance on new marketing approaches tailored to different markets, informed by thorough data research. </li>
-                <li> Gather stakeholder requests in an organized and systematic manner to ensure alignment with expectations.  </li>
-            </ul><br>
-            <p class="tools"><b> <strong> Tools: </strong> </b> </p>
-            <span class="left-container-arrow"></span>
-            <ul>
-                <li>PowerBI</li>
-                <li> R </li>
-                <li> RedShift </li>
-                <li> Google Analytics </li>
-            </ul>
-        </div>
+            <!--     <h2 class="text-3xl font-light mx-8 mb-8 text-center md:mt-32" id="web-dev"> Web Development </h2> -->
+        </main>
     </div>
 </div>
 
-<footer>
-    <div>
-    <a href="https://www.linkedin.com/in/janio-martinez-bachmann-26040ba1/" target="_blank"><img class="icons" src="../images/Social_Media/linkedin.png" height="60px" alt="linkedin_icon"></a>
-    <a href="https://github.com/alexanderbachmann" target="_blank"><img class="icons" src="../images/Social_Media/github.png" height="60px" alt="github_icon"></a>
-    <a href="https://www.kaggle.com/janiobachmann" target="_blank"><img class="icons" src="../images/Social_Media/kaggle.png" height="60px" alt="kaggle_icon"></a>
-    </div>
-    <div class="footer-copyright">
-        <p>&copy; 2024 Janio Martinez Bachmann</p>
-    </div>
-</footer>
+<footer class="text-center"> Janio Martinez Bachmann 2024 | All rights reserved </footer>
+
 </body>
 </html>
