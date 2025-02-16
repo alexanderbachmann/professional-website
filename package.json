@@ -1,0 +1,26 @@
+{
+  "name": "professional-website",
+  "version": "1.0.0",
+  "description": "For my personal professional website.",
+  "main": "JS/bundle.js",
+  "scripts": {
+    "build": "browserify JS/script.js > JS/bundle.js && live-server",
+    "build-css": "npx tailwindcss -i css/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderbachmann/professional-website.git"
+  },
+  "author": "Janio Martinez Bachmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderbachmann/professional-website/issues"
+  },
+  "homepage": "https://github.com/alexanderbachmann/professional-website#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
